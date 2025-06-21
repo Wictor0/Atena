@@ -58,33 +58,21 @@ Atena é um aplicativo mobile focado na segurança pessoal e na criação de uma
 ---
 
 ## Documentação 📄
-- [Pitch](https://docs.google.com/presentation/d/11cKMmKdL0x_1oxNgFkoqDOUsL4tjD13W0P-9OquYtbs/edit?usp=sharing)
-- [Vídeo de Demonstração](https://www.youtube.com/watch?v=vivpIc3Jj4s)
+- [Pitch](https://docs.google.com/presentation/d/1HcqgB0MWM7pWijwYk1SZFC4zATBJm82Wxdjg5gdVYX8/edit?usp=sharing)
+- [Vídeo de Demonstração](https://youtube.com/shorts/SxnPupS__e4?feature=share)
 
 
 ## Instalação ⬇️
 
 ```bash
-- git clone https://github.com/gabygraciano/app-denuncias.git
-cd app-denuncias
+- git clone https://github.com/Wictor0/Atena.git
+cd app-mulheres-js
 - npm install
 ```
 
 ## Rodando o projeto 🏃
 ```bash
 - npx expo start
-```
-
-```bash
-Usuário cadastrado para teste: gabi@hotmail.com
-Senha: gabi123
-```
-
-### Caso precise da chave de API do Supabase para rodar o banco de dados
-
-```bash
-const supabaseUrl = 'https://ezyrcmwtqkzpyalvdziv.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV6eXJjbXd0cWt6cHlhbHZkeml2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA0Njk5NjgsImV4cCI6MjA2NjA0NTk2OH0.xo8sFUn-KmLBNg8cXf9TSzoHLpxoWPVScd_D5FNnUpE';
 ```
 
 ## Como contribuir 🤝
