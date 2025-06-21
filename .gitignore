@@ -35,3 +35,6 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# esta linha no final para ignorar o arquivo de ambiente
+.env

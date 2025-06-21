@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// Arquivo: App.js - VERSÃO FINAL E LIMPA
+
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+
+// A única responsabilidade do App.js é iniciar o container da navegação
+// e chamar nosso navegador principal, o Navbar.
+import Navbar from "./src/components/Navbar";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Navbar />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
